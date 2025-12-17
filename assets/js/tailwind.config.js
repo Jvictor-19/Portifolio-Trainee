@@ -1,4 +1,3 @@
-// assets/js/tailwind.config.js
 tailwind.config = {
   theme: {
     extend: {
