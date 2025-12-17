@@ -3,13 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Portfólio de Engenharia e Desenvolvimento"
-    />
     <title>DEV.ENG | Portfólio</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
+
     <script src="https://unpkg.com/lucide@latest"></script>
 
     <script src="assets/js/tailwind.config.js"></script>
@@ -171,8 +168,8 @@
           <p
             class="text-xl text-gray-400 mb-8 max-w-lg leading-relaxed border-l-4 border-blue-500 pl-4"
           >
-            Técnico em Eletrônica e estudante de Engenharia de Computação. Eu
-            crio soluções onde o bit encontra o átomo.
+            Técnico em Eletrônica e estudante de Engenharia de Computação. Onde
+            as pessoas veem problema eu vejo uma solução.
           </p>
           <div class="flex flex-wrap gap-4">
             <a
@@ -211,7 +208,8 @@
               </p>
               <p class="pl-4">
                 <span class="text-sky-300">nome</span>:
-                <span class="text-green-400">'João Victor'</span>,
+                <span class="text-green-400">'João Victor Pereira Santos'</span
+                >,
               </p>
               <p class="pl-4">
                 <span class="text-sky-300">funcao</span>:
@@ -219,11 +217,11 @@
               </p>
               <p class="pl-4">
                 <span class="text-sky-300">paixao</span>:
-                <span class="text-green-400">'Sistemas Embarcados'</span>,
+                <span class="text-green-400">'Robótica'</span>,
               </p>
               <p class="pl-4">
                 <span class="text-sky-300">status</span>:
-                <span class="text-green-400">'Construindo o futuro'</span>
+                <span class="text-green-400">'sempre em busca de mais'</span>
               </p>
               <p class="text-blue-400">};</p>
               <p class="animate-pulse text-green-500 mt-4">_</p>
@@ -241,50 +239,18 @@
 
     <section id="about" class="py-20 bg-black/50 relative z-10">
       <div class="container mx-auto px-6">
-        <div class="flex flex-col md:flex-row gap-12 items-start">
-          <div class="w-full md:w-1/3 relative">
-            <div
-              class="aspect-square w-full max-w-[300px] mx-auto relative group"
-            >
+        <div class="flex flex-col md:flex-row gap-12 items-center mb-16">
+          <div class="w-full md:w-1/3 relative flex justify-center">
+            <div class="relative group tech-image-border w-full max-w-[300px]">
+              <img
+                src="assets/img/eu.jpeg"
+                alt="Foto de Perfil"
+                class="w-full h-auto rounded-lg object-cover grayscale group-hover:grayscale-0 transition-all duration-500 border border-white/10"
+              />
               <div
-                class="absolute inset-0 border-2 border-dashed border-gray-800 rounded-full animate-spin-slow"
-              ></div>
-              <div
-                class="absolute inset-4 border border-blue-500/30 rounded-full"
-              ></div>
-              <div class="absolute inset-0 flex items-center justify-center">
-                <div class="grid grid-cols-2 gap-3">
-                  <div
-                    class="p-4 bg-[#111] border border-green-500/20 rounded-lg hover:border-green-500/60 transition-colors flex flex-col items-center gap-1"
-                  >
-                    <i data-lucide="cpu" class="text-green-500 w-6 h-6"></i>
-                    <span class="text-[10px] font-mono text-gray-400"
-                      >HARDWARE</span
-                    >
-                  </div>
-                  <div
-                    class="p-4 bg-[#111] border border-blue-500/20 rounded-lg hover:border-blue-500/60 transition-colors flex flex-col items-center gap-1"
-                  >
-                    <i data-lucide="code-2" class="text-blue-500 w-6 h-6"></i>
-                    <span class="text-[10px] font-mono text-gray-400"
-                      >SOFTWARE</span
-                    >
-                  </div>
-                  <div
-                    class="p-4 bg-[#111] border border-purple-500/20 rounded-lg hover:border-purple-500/60 transition-colors flex flex-col items-center gap-1"
-                  >
-                    <i data-lucide="zap" class="text-purple-500 w-6 h-6"></i>
-                    <span class="text-[10px] font-mono text-gray-400">IoT</span>
-                  </div>
-                  <div
-                    class="p-4 bg-[#111] border border-white/20 rounded-lg hover:border-white/60 transition-colors flex flex-col items-center gap-1"
-                  >
-                    <i data-lucide="layers" class="text-white w-6 h-6"></i>
-                    <span class="text-[10px] font-mono text-gray-400"
-                      >FULLSTACK</span
-                    >
-                  </div>
-                </div>
+                class="absolute -bottom-4 -right-4 bg-[#0a0a0a] border border-green-500 p-2 rounded shadow-[0_0_15px_rgba(34,197,94,0.3)]"
+              >
+                <i data-lucide="cpu" class="text-green-500 w-6 h-6"></i>
               </div>
             </div>
           </div>
@@ -300,7 +266,7 @@
               class="h-1 w-20 bg-gradient-to-r from-green-500 to-transparent mb-8"
             ></div>
 
-            <div class="space-y-4 text-gray-300 mb-10 text-lg leading-relaxed">
+            <div class="space-y-4 text-gray-300 text-lg leading-relaxed">
               <p>
                 Minha jornada começou com o cheiro de solda e resistores. Como
                 <strong class="text-green-400">Técnico em Eletrônica</strong>,
@@ -315,87 +281,143 @@
                 do transistor ao cloud.
               </p>
             </div>
+          </div>
+        </div>
 
-            <div class="mt-12">
-              <h3
-                class="text-xl font-bold text-white mb-6 flex items-center gap-2 font-mono"
-              >
-                <span class="text-purple-500">&gt;</span> PROTOCOLO_OFFLINE
-              </h3>
+        <div class="mt-8 w-full">
+          <h3
+            class="text-xl font-bold text-white mb-6 flex items-center gap-2 font-mono"
+          >
+            <span class="text-purple-500">&gt;</span> PROTOCOLO_OFFLINE
+          </h3>
 
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div
+              class="bg-[#0f0f0f] rounded-lg border border-white/5 hover:border-yellow-500/50 transition-all flex flex-col h-full group overflow-hidden"
+            >
+              <div class="h-40 w-full overflow-hidden relative">
                 <div
-                  class="bg-[#0f0f0f] p-4 rounded-lg border border-white/5 hover:border-yellow-500/50 transition-all flex items-start gap-4"
-                >
+                  class="absolute inset-0 bg-yellow-500/10 z-10 group-hover:bg-transparent transition-all"
+                ></div>
+                <img
+                  src="assets/img/volei.jpeg"
+                  alt="Esportes"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+              <div class="p-6 flex flex-col gap-4">
+                <div class="flex items-center gap-2">
                   <div class="bg-yellow-500/10 p-2 rounded text-yellow-500">
-                    <i data-lucide="trophy" class="w-6 h-6"></i>
+                    <i data-lucide="trophy" class="w-5 h-5"></i>
                   </div>
-                  <div>
-                    <h4 class="font-bold text-white text-sm font-mono mb-1">
-                      COMPETITIVIDADE
-                    </h4>
-                    <p class="text-xs text-gray-400">
-                      Ex-atleta de Vôlei de Praia (APCEF-SE 2023). A disciplina
-                      e o trabalho em equipe da areia trago para os projetos.
-                    </p>
-                  </div>
+                  <h4
+                    class="font-bold text-white text-sm font-mono group-hover:text-yellow-400 transition-colors"
+                  >
+                    COMPETITIVIDADE
+                  </h4>
                 </div>
+                <p class="text-xs text-gray-400 leading-relaxed">
+                  Praticante de Jiu-Jitsu e Judô. Ex-atleta de Vôlei de Praia
+                  (APCEF-SE 2023). A disciplina e o foco dos esportes trago para
+                  os projetos.
+                </p>
+              </div>
+            </div>
 
+            <div
+              class="bg-[#0f0f0f] rounded-lg border border-white/5 hover:border-green-500/50 transition-all flex flex-col h-full group overflow-hidden"
+            >
+              <div class="h-40 w-full overflow-hidden relative">
                 <div
-                  class="bg-[#0f0f0f] p-4 rounded-lg border border-white/5 hover:border-green-500/50 transition-all flex items-start gap-4"
-                >
+                  class="absolute inset-0 bg-green-500/10 z-10 group-hover:bg-transparent transition-all"
+                ></div>
+                <img
+                  src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2070&auto=format&fit=crop"
+                  alt="Eletrônica e Reparos"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+              <div class="p-6 flex flex-col gap-4">
+                <div class="flex items-center gap-2">
                   <div class="bg-green-500/10 p-2 rounded text-green-500">
-                    <i data-lucide="wrench" class="w-6 h-6"></i>
+                    <i data-lucide="wrench" class="w-5 h-5"></i>
                   </div>
-                  <div>
-                    <h4 class="font-bold text-white text-sm font-mono mb-1">
-                      HANDS-ON
-                    </h4>
-                    <p class="text-xs text-gray-400">
-                      Amo atividades manuais. Consertar coisas não é só
-                      trabalho, é um hobby. A curiosidade de saber como
-                      funciona.
-                    </p>
-                  </div>
+                  <h4
+                    class="font-bold text-white text-sm font-mono group-hover:text-green-400 transition-colors"
+                  >
+                    HANDS-ON
+                  </h4>
                 </div>
+                <p class="text-xs text-gray-400 leading-relaxed">
+                  Amo atividades manuais. Consertar coisas não é só trabalho, é
+                  um hobby. A curiosidade de saber como funciona.
+                </p>
+              </div>
+            </div>
 
+            <div
+              class="bg-[#0f0f0f] rounded-lg border border-white/5 hover:border-blue-500/50 transition-all flex flex-col h-full group overflow-hidden"
+            >
+              <div class="h-40 w-full overflow-hidden relative">
                 <div
-                  class="bg-[#0f0f0f] p-4 rounded-lg border border-white/5 hover:border-blue-500/50 transition-all flex items-start gap-4"
-                >
+                  class="absolute inset-0 bg-blue-500/10 z-10 group-hover:bg-transparent transition-all"
+                ></div>
+                <img
+                  src="assets/img/bike.jpeg"
+                  alt="Praia e Bicicleta"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+              <div class="p-6 flex flex-col gap-4">
+                <div class="flex items-center gap-2">
                   <div
                     class="bg-blue-500/10 p-2 rounded text-blue-500 flex gap-1"
                   >
                     <i data-lucide="bike" class="w-5 h-5"></i>
                     <i data-lucide="waves" class="w-5 h-5"></i>
                   </div>
-                  <div>
-                    <h4 class="font-bold text-white text-sm font-mono mb-1">
-                      RECARGA DE ENERGIA
-                    </h4>
-                    <p class="text-xs text-gray-400">
-                      Pedalar na Speed e o som do mar. A praia é minha segunda
-                      casa e onde encontro clareza mental.
-                    </p>
-                  </div>
+                  <h4
+                    class="font-bold text-white text-sm font-mono group-hover:text-blue-400 transition-colors"
+                  >
+                    RECARGA
+                  </h4>
                 </div>
+                <p class="text-xs text-gray-400 leading-relaxed">
+                  Pedalar na Speed e o som do mar. A praia é minha segunda casa
+                  e onde encontro clareza mental.
+                </p>
+              </div>
+            </div>
 
+            <div
+              class="bg-[#0f0f0f] rounded-lg border border-white/5 hover:border-red-500/50 transition-all flex flex-col h-full group overflow-hidden"
+            >
+              <div class="h-40 w-full overflow-hidden relative">
                 <div
-                  class="bg-[#0f0f0f] p-4 rounded-lg border border-white/5 hover:border-red-500/50 transition-all flex items-start gap-4"
-                >
+                  class="absolute inset-0 bg-red-500/10 z-10 group-hover:bg-transparent transition-all"
+                ></div>
+                <img
+                  src="assets/img/livros.jpg"
+                  alt="Livros Darkside"
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+              <div class="p-6 flex flex-col gap-4">
+                <div class="flex items-center gap-2">
                   <div class="bg-red-500/10 p-2 rounded text-red-500">
-                    <i data-lucide="book-open" class="w-6 h-6"></i>
+                    <i data-lucide="book-open" class="w-5 h-5"></i>
                   </div>
-                  <div>
-                    <h4 class="font-bold text-white text-sm font-mono mb-1">
-                      INPUT DE DADOS
-                    </h4>
-                    <p class="text-xs text-gray-400">
-                      Leitor ávido, especialmente das edições da
-                      <span class="text-red-400">Darkside Books</span>. Terror,
-                      fantasia e biografias.
-                    </p>
-                  </div>
+                  <h4
+                    class="font-bold text-white text-sm font-mono group-hover:text-red-400 transition-colors"
+                  >
+                    INPUT DADOS
+                  </h4>
                 </div>
+                <p class="text-xs text-gray-400 leading-relaxed">
+                  Leitor ávido, especialmente das edições da
+                  <span class="text-red-400">Darkside Books</span>. Terror,
+                  fantasia e biografias.
+                </p>
               </div>
             </div>
           </div>
@@ -539,18 +561,13 @@
           class="text-3xl md:text-4xl font-bold mb-12 flex items-center gap-3"
         >
           <span class="text-purple-500 text-2xl font-mono">03.</span>
-          Experiências & Liderança
+          Experiências
         </h2>
 
         <div class="grid md:grid-cols-2 gap-8">
           <div
             class="group bg-[#0f0f0f] rounded-xl overflow-hidden border border-white/5 hover:border-purple-500/30 transition-all duration-300 relative"
           >
-            <div
-              class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity"
-            >
-              <i data-lucide="rocket" class="w-24 h-24"></i>
-            </div>
             <div class="p-8 relative z-10">
               <div class="flex justify-between items-start mb-2">
                 <div
@@ -564,32 +581,30 @@
                 >
               </div>
               <h3
-                class="text-2xl font-bold text-white mb-1 group-hover:text-purple-400 transition-colors"
+                class="text-2xl font-bold text-white mb-1 group-hover:text-purple-400 glow-text"
               >
                 Equipe Zenith
               </h3>
               <p class="text-sm font-mono text-purple-500 mb-4">
                 Foguetemodelismo & Telemetria
               </p>
-              <p class="text-gray-400 text-sm mb-6 leading-relaxed">
+
+              <p
+                class="text-gray-400 text-sm mb-6 leading-relaxed group-hover:text-gray-100 transition-colors duration-300"
+              >
                 Responsável pela fabricação e desenvolvimento da interface de
                 comunicação em tempo real (Ground Station). O sistema exibe
-                gráficos de telemetria ao vivo e armazena dados críticos de voo
-                para análises pós-lançamento, garantindo a segurança e
-                recuperação do foguete.
+                gráficos de telemetria ao vivo e armazena dados críticos de voo.
               </p>
+
               <div class="flex flex-wrap gap-2">
                 <span
                   class="text-xs font-mono text-gray-400 bg-gray-900 px-2 py-1 rounded border border-gray-800"
-                  >React</span
+                  >Python</span
                 >
                 <span
                   class="text-xs font-mono text-gray-400 bg-gray-900 px-2 py-1 rounded border border-gray-800"
                   >Comunicação Serial</span
-                >
-                <span
-                  class="text-xs font-mono text-gray-400 bg-gray-900 px-2 py-1 rounded border border-gray-800"
-                  >Data Viz</span
                 >
                 <span
                   class="text-xs font-mono text-gray-400 bg-gray-900 px-2 py-1 rounded border border-gray-800"
@@ -602,11 +617,6 @@
           <div
             class="group bg-[#0f0f0f] rounded-xl overflow-hidden border border-white/5 hover:border-yellow-500/30 transition-all duration-300 relative"
           >
-            <div
-              class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity"
-            >
-              <i data-lucide="lightbulb" class="w-24 h-24"></i>
-            </div>
             <div class="p-8 relative z-10">
               <div class="flex justify-between items-start mb-2">
                 <div
@@ -626,19 +636,22 @@
                 </div>
               </div>
               <h3
-                class="text-2xl font-bold text-white mb-1 group-hover:text-yellow-400 transition-colors"
+                class="text-2xl font-bold text-white mb-1 group-hover:text-yellow-400 glow-text"
               >
                 InnovationHub
               </h3>
               <p class="text-sm font-mono text-yellow-500 mb-4">
                 Fundador & Gestão Estratégica
               </p>
-              <p class="text-gray-400 text-sm mb-6 leading-relaxed">
+
+              <p
+                class="text-gray-400 text-sm mb-6 leading-relaxed group-hover:text-gray-100 transition-colors duration-300"
+              >
                 Como fundador da liga de inovação e empreendedorismo, atuei na
                 estruturação de projetos que conectam tecnologia ao mercado.
-                Evoluí de Diretor de Projetos para Vice-Presidente, liderando
-                equipes multidisciplinares e fomentando a cultura maker.
+                Evoluí de Diretor de Projetos para Vice-Presidente.
               </p>
+
               <div class="flex flex-wrap gap-2">
                 <span
                   class="text-xs font-mono text-gray-400 bg-gray-900 px-2 py-1 rounded border border-gray-800"
@@ -647,10 +660,6 @@
                 <span
                   class="text-xs font-mono text-gray-400 bg-gray-900 px-2 py-1 rounded border border-gray-800"
                   >Gestão de Projetos</span
-                >
-                <span
-                  class="text-xs font-mono text-gray-400 bg-gray-900 px-2 py-1 rounded border border-gray-800"
-                  >Empreendedorismo</span
                 >
                 <span
                   class="text-xs font-mono text-gray-400 bg-gray-900 px-2 py-1 rounded border border-gray-800"
@@ -663,11 +672,6 @@
           <div
             class="group bg-[#0f0f0f] rounded-xl overflow-hidden border border-white/5 hover:border-blue-500/30 transition-all duration-300 relative"
           >
-            <div
-              class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity"
-            >
-              <i data-lucide="bot" class="w-24 h-24"></i>
-            </div>
             <div class="p-8 relative z-10">
               <div class="flex justify-between items-start mb-2">
                 <div
@@ -681,19 +685,22 @@
                 >
               </div>
               <h3
-                class="text-2xl font-bold text-white mb-1 group-hover:text-blue-400 transition-colors"
+                class="text-2xl font-bold text-white mb-1 group-hover:text-blue-400 glow-text"
               >
                 CoreTech
               </h3>
               <p class="text-sm font-mono text-blue-500 mb-4">
                 Coordenador de Robótica
               </p>
-              <p class="text-gray-400 text-sm mb-6 leading-relaxed">
+
+              <p
+                class="text-gray-400 text-sm mb-6 leading-relaxed group-hover:text-gray-100 transition-colors duration-300"
+              >
                 Lidero a coordenação de robótica, desenvolvendo currículos e
                 orientando membros no desenvolvimento de autômatos e sistemas
-                embarcados. Foco em competições e aplicação prática de conceitos
-                de engenharia.
+                embarcados.
               </p>
+
               <div class="flex flex-wrap gap-2">
                 <span
                   class="text-xs font-mono text-gray-400 bg-gray-900 px-2 py-1 rounded border border-gray-800"
@@ -707,10 +714,6 @@
                   class="text-xs font-mono text-gray-400 bg-gray-900 px-2 py-1 rounded border border-gray-800"
                   >Arduino</span
                 >
-                <span
-                  class="text-xs font-mono text-gray-400 bg-gray-900 px-2 py-1 rounded border border-gray-800"
-                  >Mecatrônica</span
-                >
               </div>
             </div>
           </div>
@@ -718,11 +721,6 @@
           <div
             class="group bg-[#0f0f0f] rounded-xl overflow-hidden border border-white/5 hover:border-green-500/30 transition-all duration-300 relative"
           >
-            <div
-              class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity"
-            >
-              <i data-lucide="users" class="w-24 h-24"></i>
-            </div>
             <div class="p-8 relative z-10">
               <div class="flex justify-between items-start mb-2">
                 <div
@@ -732,23 +730,26 @@
                 </div>
                 <span
                   class="text-xs font-mono text-gray-500 border border-gray-800 px-2 py-1 rounded"
-                  >Atual</span
+                  >2025 - Atual</span
                 >
               </div>
               <h3
-                class="text-2xl font-bold text-white mb-1 group-hover:text-green-400 transition-colors"
+                class="text-2xl font-bold text-white mb-1 group-hover:text-green-400 glow-text"
               >
                 Atlética Bugados
               </h3>
               <p class="text-sm font-mono text-green-500 mb-4">
                 Treinador & Atleta
               </p>
-              <p class="text-gray-400 text-sm mb-6 leading-relaxed">
+
+              <p
+                class="text-gray-400 text-sm mb-6 leading-relaxed group-hover:text-gray-100 transition-colors duration-300"
+              >
                 Atuo em duas frentes: como Treinador do time de Vôlei Feminino,
                 desenvolvendo estratégias e gestão de pessoas, e como Atleta do
-                time Masculino. O esporte complementa minha formação técnica com
-                soft skills essenciais.
+                time Masculino.
               </p>
+
               <div class="flex flex-wrap gap-2">
                 <span
                   class="text-xs font-mono text-gray-400 bg-gray-900 px-2 py-1 rounded border border-gray-800"
@@ -756,11 +757,7 @@
                 >
                 <span
                   class="text-xs font-mono text-gray-400 bg-gray-900 px-2 py-1 rounded border border-gray-800"
-                  >Gestão de Pessoas</span
-                >
-                <span
-                  class="text-xs font-mono text-gray-400 bg-gray-900 px-2 py-1 rounded border border-gray-800"
-                  >Estratégia</span
+                  >Gestão</span
                 >
                 <span
                   class="text-xs font-mono text-gray-400 bg-gray-900 px-2 py-1 rounded border border-gray-800"
@@ -774,101 +771,117 @@
     </section>
 
     <section id="contact" class="py-20 relative z-10">
-      <div class="container mx-auto px-6 max-w-4xl">
-        <div class="relative z-10 text-center mb-12">
-          <h2 class="text-3xl font-bold mb-4">Vamos Construir Algo?</h2>
-          <p class="text-gray-400 max-w-2xl mx-auto">
-            Seja para discutir circuitos, códigos ou oportunidades de
-            estágio/trabalho, minha caixa de entrada está sempre aberta. Estou
-            totalmente disponível para conversas e troca de ideias, pois
-            valorizo muito o networking e novas conexões.
-          </p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <a
-            href="mailto:joao100.vps@gmail.com"
-            class="flex items-center gap-4 text-gray-300 hover:text-green-400 transition-colors p-6 bg-[#0d0d0d] rounded-xl border border-gray-800 hover:border-green-500/30 group"
-          >
-            <div
-              class="bg-green-500/10 p-3 rounded-lg group-hover:bg-green-500/20 transition-colors"
-            >
-              <i data-lucide="mail" class="text-green-500 w-6 h-6"></i>
-            </div>
-            <div class="flex flex-col">
-              <span class="text-xs text-gray-500 font-mono mb-1"
-                >EMAIL_PESSOAL</span
-              >
-              <span class="text-sm font-medium break-all"
-                >joao100.vps@gmail.com</span
-              >
-            </div>
-          </a>
-
+      <div class="container mx-auto px-6 max-w-5xl">
+        <div
+          class="bg-[#0a0a0a] border border-white/5 rounded-2xl p-8 md:p-12 relative overflow-hidden"
+        >
           <div
-            class="flex flex-col gap-2 p-6 bg-[#0d0d0d] rounded-xl border border-gray-800 border-l-4 border-l-blue-500/50 hover:border-gray-700 transition-all"
-          >
-            <div class="flex items-center gap-3 mb-2 text-blue-400">
-              <i data-lucide="graduation-cap" class="w-6 h-6"></i>
-              <span class="text-xs font-mono tracking-widest"
-                >EMAIL_ACADEMICO</span
-              >
-            </div>
-            <div class="space-y-1 pl-1">
-              <a
-                href="mailto:joao_victor@academico.ufs.br"
-                class="block text-sm text-gray-400 hover:text-white transition-colors"
-              >
-                joao_victor@academico.ufs.br
-              </a>
-              <a
-                href="mailto:victor.pereira@dcomp.ufs.br"
-                class="block text-sm text-gray-400 hover:text-white transition-colors"
-              >
-                victor.pereira@dcomp.ufs.br
-              </a>
-            </div>
+            class="absolute top-0 right-0 w-64 h-64 bg-green-500/5 rounded-full blur-3xl pointer-events-none"
+          ></div>
+          <div
+            class="absolute bottom-0 left-0 w-64 h-64 bg-blue-500/5 rounded-full blur-3xl pointer-events-none"
+          ></div>
+
+          <div class="relative z-10 text-center mb-12">
+            <h2 class="text-3xl font-bold mb-4">Vamos Construir Algo?</h2>
+            <p class="text-gray-400 max-w-2xl mx-auto">
+              Seja para discutir circuitos, códigos ou oportunidades de
+              estágio/trabalho, minha caixa de entrada está sempre aberta. Estou
+              totalmente disponível para conversas e troca de ideias, pois
+              valorizo muito o networking e novas conexões.
+            </p>
           </div>
 
-          <a
-            href="https://www.linkedin.com/in/j-victor-p-s/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="flex items-center gap-4 text-gray-300 hover:text-blue-400 transition-colors p-6 bg-[#0d0d0d] rounded-xl border border-gray-800 hover:border-blue-500/30 group"
-          >
-            <div
-              class="bg-blue-500/10 p-3 rounded-lg group-hover:bg-blue-500/20 transition-colors"
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 relative z-10">
+            <a
+              href="mailto:joao100.vps@gmail.com"
+              class="flex items-center gap-4 text-gray-300 hover:text-green-400 transition-colors p-6 bg-black/40 rounded-xl border border-gray-800 hover:border-green-500/30 group"
             >
-              <i data-lucide="linkedin" class="text-blue-500 w-6 h-6"></i>
-            </div>
-            <div class="flex flex-col">
-              <span class="text-xs text-gray-500 font-mono mb-1"
-                >REDE_PROFISSIONAL</span
+              <div
+                class="bg-green-500/10 p-3 rounded-lg group-hover:bg-green-500/20 transition-colors"
               >
-              <span class="text-sm font-medium"
-                >linkedin.com/in/j-victor-p-s</span
-              >
-            </div>
-          </a>
+                <i data-lucide="mail" class="text-green-500 w-6 h-6"></i>
+              </div>
+              <div class="flex flex-col">
+                <span class="text-xs text-gray-500 font-mono mb-1"
+                  >EMAIL_PESSOAL</span
+                >
+                <span class="text-sm font-medium break-all"
+                  >joao100.vps@gmail.com</span
+                >
+              </div>
+            </a>
 
-          <a
-            href="https://github.com/Jvictor-19"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="flex items-center gap-4 text-gray-300 hover:text-purple-400 transition-colors p-6 bg-[#0d0d0d] rounded-xl border border-gray-800 hover:border-purple-500/30 group"
-          >
             <div
-              class="bg-purple-500/10 p-3 rounded-lg group-hover:bg-purple-500/20 transition-colors"
+              class="flex items-center gap-4 text-gray-300 p-6 bg-black/40 rounded-xl border border-gray-800 hover:border-blue-500/30 transition-all group"
             >
-              <i data-lucide="github" class="text-purple-500 w-6 h-6"></i>
-            </div>
-            <div class="flex flex-col">
-              <span class="text-xs text-gray-500 font-mono mb-1"
-                >REPOSITÓRIOS</span
+              <div
+                class="bg-blue-500/10 p-3 rounded-lg group-hover:bg-blue-500/20 transition-colors h-fit"
               >
-              <span class="text-sm font-medium">github.com/Jvictor-19</span>
+                <i
+                  data-lucide="graduation-cap"
+                  class="text-blue-500 w-6 h-6"
+                ></i>
+              </div>
+              <div class="flex flex-col">
+                <span class="text-xs text-gray-500 font-mono mb-1"
+                  >EMAIL_ACADEMICO</span
+                >
+                <a
+                  href="mailto:joao_victor@academico.ufs.br"
+                  class="text-sm font-medium hover:text-white transition-colors block"
+                >
+                  joao_victor@academico.ufs.br
+                </a>
+                <a
+                  href="mailto:victor.pereira@dcomp.ufs.br"
+                  class="text-sm font-medium hover:text-white transition-colors block mt-0.5"
+                >
+                  victor.pereira@dcomp.ufs.br
+                </a>
+              </div>
             </div>
-          </a>
+
+            <a
+              href="https://www.linkedin.com/in/j-victor-p-s/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center gap-4 text-gray-300 hover:text-blue-400 transition-colors p-6 bg-black/40 rounded-xl border border-gray-800 hover:border-blue-500/30 group"
+            >
+              <div
+                class="bg-blue-500/10 p-3 rounded-lg group-hover:bg-blue-500/20 transition-colors"
+              >
+                <i data-lucide="linkedin" class="text-blue-500 w-6 h-6"></i>
+              </div>
+              <div class="flex flex-col">
+                <span class="text-xs text-gray-500 font-mono mb-1"
+                  >REDE_PROFISSIONAL</span
+                >
+                <span class="text-sm font-medium"
+                  >linkedin.com/in/j-victor-p-s</span
+                >
+              </div>
+            </a>
+
+            <a
+              href="https://github.com/Jvictor-19"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center gap-4 text-gray-300 hover:text-purple-400 transition-colors p-6 bg-black/40 rounded-xl border border-gray-800 hover:border-purple-500/30 group"
+            >
+              <div
+                class="bg-purple-500/10 p-3 rounded-lg group-hover:bg-purple-500/20 transition-colors"
+              >
+                <i data-lucide="github" class="text-purple-500 w-6 h-6"></i>
+              </div>
+              <div class="flex flex-col">
+                <span class="text-xs text-gray-500 font-mono mb-1"
+                  >REPOSITÓRIOS</span
+                >
+                <span class="text-sm font-medium">github.com/Jvictor-19</span>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </section>
